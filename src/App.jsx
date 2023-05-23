@@ -9,7 +9,7 @@ function App() {
   const [loading, setLoading] = useState(false);
   const [placeholder, setPlaceholder] = useState();
   const configuration = new Configuration({
-    apiKey: "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",
+    apiKey: "****",
   });
 
   const openai = new OpenAIApi(configuration);
